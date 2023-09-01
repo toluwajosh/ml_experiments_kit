@@ -1,5 +1,7 @@
 import unittest
+
 import torch
+
 from src.criteria.core import Criterion
 
 

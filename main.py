@@ -1,9 +1,12 @@
+import mlflow
 import torch
 
 from src.criteria.core import Criterion
 from src.datasets.torch_inbuilt import FashionMNIST
 from src.models.mlp import MLP
 from src.optimizers.core import Optimizer
+
+mlflow.autolog()
 
 train_dataloader = FashionMNIST().train_dataloader
 test_dataloader = FashionMNIST().test_dataloader

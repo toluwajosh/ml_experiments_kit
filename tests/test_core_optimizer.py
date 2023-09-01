@@ -1,7 +1,9 @@
 import unittest
+
 import torch
-from src.optimizers.core import Optimizer
+
 from src.models.mlp import MLP
+from src.optimizers.core import Optimizer
 
 
 class TestOptimizer(unittest.TestCase):
