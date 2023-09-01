@@ -2,6 +2,12 @@
 
 Set of tools to experiment with various ML ideas
 
+## Run unit tests
+
+```bash
+python -m unittest discover tests
+```
+
 ## TODOs
 
 - [ ] Add setup documentation
